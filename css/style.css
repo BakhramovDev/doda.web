@@ -20,17 +20,29 @@ header .navbar .container-fluid .navbar-brand {
   color: rgb(28, 224, 77);
   font-size: 45px;
   font-family: bold;
+  font-weight: 900;
 }
 header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 400;
   color: rgb(28, 224, 77);
 }
 header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
-  font-size: 25px;
+  font-size: 18px;
   margin: 10px;
   color: rgb(28, 224, 77);
-  font-weight: 800;
+}
+
+.menu .main_text_menu {
+  text-align: center;
+}
+.menu .menus {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.menu .menus img {
+  width: 430px;
 }
 
 .galereya {
@@ -50,7 +62,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 }
 .galereya .row .galery img {
   margin-bottom: 20px;
-  width: 450px;
+  width: 400px;
 }
 
 .home {
@@ -89,7 +101,79 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  width: 90%;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+}
+.map .main_text_map {
+  text-align: center;
+  font-size: 50px;
+  font-family: cabin;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.map .row .map_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+  margin-top: -90px;
+}
+.map .row .map_ins {
+  display: flex;
+}
+.map .row .map_ins .info_map {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.map .row .map_ins .info_map .map_inses button {
+  margin-bottom: 10px;
+  background-color: rgb(28, 224, 77);
+}
+.map .row .map_ins .info_map .map_inses button a {
+  text-decoration: none;
+  color: black;
+  font-family: cobina;
+}
+.map .row .map_ins .info_map .map_inses button:hover {
+  background-color: rgba(28, 224, 77, 0.61);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer .we h4 {
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+}
+.footer .we h4 a {
+  text-decoration: none;
+  color: rgb(101, 98, 255);
+}
+.footer .avtor h4 {
+  font-size: 20px;
+  color: rgb(85, 85, 85);
+}
+.footer .avtor h4 a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+.line {
+  display: block;
+  max-width: 1100px;
+  height: 2px;
+  margin-bottom: 23px;
+  background: rgb(28, 224, 77);
 }
 
 .menu-btn {
@@ -100,7 +184,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   width: 88px;
   height: 88px;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: none;
 }
 
@@ -109,7 +193,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   height: 6px;
   background: rgba(3, 255, 100, 0.9803921569);
   border-radius: 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-btn-burger::before,
@@ -120,7 +204,7 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   height: 6px;
   background: rgba(3, 255, 100, 0.9803921569);
   border-radius: 5px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-btn-burger::before {

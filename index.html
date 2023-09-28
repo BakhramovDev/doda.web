@@ -34,13 +34,13 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               
                   <li class="nav-item">
-                    <a style="color: rgb(31, 218, 31);" class="nav-link active " href="#"><i class="bi bi-file-text-fill"></i>Узнать Цену</a>
+                    <a style="color: rgb(31, 218, 31);" class="nav-link active " type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><i class="bi bi-file-text-fill"></i>Узнать Цену</a>
                   </li>
                   <li class="nav-item">
-                    <a style="color: rgb(31, 218, 31)" class="nav-link" href="#"><i class="bi bi-telephone-fill"></i>Позвонить</a>
+                    <a style="color: rgb(31, 218, 31)" class="nav-link" href="tel:+998950628888"><i class="bi bi-telephone-fill"></i>Позвонить</a>
                   </li>
                   <li class="nav-item">
-                    <a style="color: rgb(31, 218, 31)" class="nav-link" href="#"><i class="bi bi-geo-alt-fill"></i>Проложить Маршрут</a>
+                    <a style="color: rgb(31, 218, 31)" class="nav-link" href="https://maps.app.goo.gl/Z5X7pqZ7AYYXCSds8"><i class="bi bi-geo-alt-fill"></i>Проложить Маршрут</a>
                   </li>
                  
                  
@@ -60,13 +60,47 @@
              </h1>
              <p>Baliq Restorani in Termiz</p>
              <p>Закроется сегодня в 22:00</p>
-             <button class="btn btn-success p-3">УЗНАТЬ ЦЕНУ</button>
+             <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success p-3">УЗНАТЬ ЦЕНУ</button>
           </div>
           <div class="col col-12 col-xl-12 col-lg-12 col-md-12">
             <a href="#"><img src="./images/2022-02-01.jpg"></a>
           </div>
         </div>
       
+      </div>
+    </section>
+    <!-- Menu -->
+    <section>
+      <div class="menu">
+        <h1 class="main_text_menu">МЕНЮ</h1>
+        <div class="row" style="width: 100%;">
+          <div class="menus col-xl-6 col-lg-6 col-md-12">
+
+<a type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img src="./images/photo_2023-09-28_18-17-40.jpg"></a>
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pizza va Fast food</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/photo_2023-09-28_18-17-40.jpg" >
+        <img src="./images/photo_2023-09-28_18-24-04.jpg" >
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="menus col-xl-6 col-lg-6 col-md-12">
+
+            <a type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img src="./images/photo_2023-09-28_18-24-04.jpg"></a>
+                      </div>
+        </div>
       </div>
     </section>
     <!-- Galereya -->
@@ -89,7 +123,48 @@
         </div>
       </div>
     </section>
+    <!-- Adress -->
+    <section style="width: 100%;">
 
+      <div class="map">
+      <h1 class="main_text_map">КАК С НАМИ СВЯЗАТЬСЯ</h1>
+       <div class="row d-flex" style="width: 90%;" >
+        <div class="map_in col-12 col-xl-12 col-lg-12 col-md-12 mb-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6352.401938547679!2d67.27786!3d37.242939!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDE0JzM0LjYiTiA2N8KwMTYnNDAuMyJF!5e0!3m2!1sru!2s!4v1695908587564!5m2!1sru!2s" frameborder="0" style="border:0; width: 100%; height: 600px;" allowfullscreen></iframe>
+        </div>
+        <div class="map_ins col-12 col-xl-12 col-lg-12 col-md-12 mb-5">
+          <div class="info_map " >
+            <div class="map_inses mb-5">
+              <h1>Связаться</h1>
+              <button class="btn btn-success"><a href="tel:+998950628888">ПОЗВОНИТЬ</a></button>
+              <h3>(𝟗𝟓) 𝟎𝟔𝟐 𝟖𝟖𝟖𝟖</h3>
+              <h3>(𝟗𝟗) 𝟓𝟔𝟐 𝟖𝟖𝟖𝟖</h3>
+            </div>
+            <div class="map_inses mb-5">
+              <h1>Адрес</h1>
+              <button class="btn btn-success"><a href="https://maps.app.goo.gl/Z5X7pqZ7AYYXCSds8">ПРОЛОЖИТЬ МАРШРУТ</a></button>
+              <h3>...</h3>
+            </div>
+            <div class="map_inses mb-5">
+              <h1>Часы работы</h1>
+              <h3>Каждый день 24часа</h3>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <span class="line mx-auto mb-5"></span>
+    <footer>
+      <div class="footer">
+        <div class="we">
+          <h4>Created by <a href="https://admirable-treacle-a42f54.netlify.app/">Tasnim Infinte</a></h4>
+        </div>
+        <div class="avtor">
+          <h4>Автор фото в верхней части страницы: BRIZ KAFE</h4>
+        </div>
+      </div>
+    </footer>
     <script src="./bootstrap/bundle.js"></script>
     <script src="./app.js"></script>
 </body>
