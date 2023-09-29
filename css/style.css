@@ -42,7 +42,8 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   margin-bottom: 10px;
 }
 .menu .menus img {
-  width: 430px;
+  width: 300px;
+  padding: 17px;
 }
 
 .galereya {
@@ -62,7 +63,8 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 }
 .galereya .row .galery img {
   margin-bottom: 20px;
-  width: 400px;
+  width: 317px;
+  padding: 25px;
 }
 
 .home {
@@ -226,10 +228,17 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 
 .menu-btn.open .menu-btn-burger::after {
   transform: rotate(-226deg) translate(-34px, -35px);
-}/*# sourceMappingURL=style.css.map */
-
-.img_controller img
-{
-  max-width: 300px;
 }
-/* Media of menues */
+
+@media (max-width: 320px) {
+  .container-fluid {
+    display: block !important;
+  }
+  iframe {
+    width: 160%;
+    height: 250px;
+  }
+  .footer .avtor h4 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
