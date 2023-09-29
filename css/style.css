@@ -227,3 +227,9 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 .menu-btn.open .menu-btn-burger::after {
   transform: rotate(-226deg) translate(-34px, -35px);
 }/*# sourceMappingURL=style.css.map */
+
+.img_controller img
+{
+  max-width: 300px;
+}
+/* Media of menues */
