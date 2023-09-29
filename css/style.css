@@ -230,6 +230,18 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   transform: rotate(-226deg) translate(-34px, -35px);
 }
 
+@media (max-width: 325px) {
+  .container-fluid {
+    display: block !important;
+  }
+  iframe {
+    width: 160%;
+    height: 250px;
+  }
+  .footer .avtor h4 {
+    text-align: center;
+  }
+}
 @media (max-width: 320px) {
   .container-fluid {
     display: block !important;
