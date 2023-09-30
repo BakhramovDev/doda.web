@@ -310,6 +310,18 @@ header{
 
 
 
+@media(max-width:345px){
+    .container-fluid{
+        display: block !important;
+    }
+    iframe{
+        width: 160%;
+        height: 250px;
+    }
+    .footer .avtor h4{
+        text-align: center;
+    }
+}
 @media(max-width:325px){
     .container-fluid{
         display: block !important;
