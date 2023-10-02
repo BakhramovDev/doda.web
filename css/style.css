@@ -9,11 +9,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 header {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   box-shadow: rgba(3, 253, 57, 0.61) 0px 5px 15px;
 }
 header .navbar .container-fluid .navbar-brand {
@@ -28,8 +28,8 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
   color: rgb(28, 224, 77);
 }
 header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
-  font-size: 18px;
-  margin: 10px;
+  font-size: 15px;
+  margin-right: 5px;
   color: rgb(28, 224, 77);
 }
 

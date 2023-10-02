@@ -7,10 +7,10 @@ h1,h2,h3,h4,h5,h6,p,a{
     color:rgb(28, 224, 77) ;
 }
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 header{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
    
     box-shadow: rgba(3, 253, 57, 0.61) 0px 5px 15px;
     .navbar{
@@ -24,14 +24,15 @@ header{
       
              .collapse{
                 .navbar-nav{
-                   .nav-item{
-                    .nav-link{
+                    .nav-item{
+                        .nav-link{
+                    
                         font-size: 20px;
                         font-weight: 400;
                         color: rgb(28, 224, 77);
                         .bi {
-                            font-size: 18px;
-                            margin: 10px;
+                            font-size: 15px;
+                            margin-right: 5px;
                             color: rgb(28, 224, 77);
 
                             // font-weight: 500;
