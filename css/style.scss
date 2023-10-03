@@ -5,6 +5,7 @@
 }
 h1,h2,h3,h4,h5,h6,p,a{
     color:rgb(28, 224, 77) ;
+    text-decoration: none;
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -49,6 +50,7 @@ header{
     .main_text_menu{
         text-align: center;
     }
+   .row{
     .menus{
         display: flex;
         justify-content: space-around;
@@ -58,7 +60,24 @@ header{
             padding: 17px;
         }
     }
+   }
+    .otziv{
+        max-width: 1400px;
+        display: flex;
+        justify-content: space-around;
+        .otziv_in{
+            text-decoration: none;
+            font-size: 20px;
+            font-family: comfortaa;
+            border-bottom: 1px solid ;
+            transition: 0.5s;
+        }
+        .otziv_in:hover{
+            color: chartreuse;
+        }
+    }
 }
+
 .galereya{
    
     padding: 50px;
