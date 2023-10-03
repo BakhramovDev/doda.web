@@ -79,10 +79,18 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 }
 .galereya .row .galery img {
   margin-bottom: 20px;
-  width: 317px;
+  width: 400px;
   padding: 25px;
 }
-
+@media (max-width: 320px)
+{
+  .galereya .row .galery img {
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 25px;
+    object-fit: cover;
+  }
+}
 .home {
   display: flex;
   flex-direction: column;
