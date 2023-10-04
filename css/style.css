@@ -36,6 +36,15 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 
 .menu .main_text_menu {
   text-align: center;
+  color: black;
+  transition: 0.5s;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu .main_text_menu:hover {
+  color: rgb(28, 224, 77);
 }
 .menu .row .menus {
   display: flex;
@@ -67,6 +76,10 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 }
 .galereya .text {
   text-align: center;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .galereya .text h1 {
   font-size: 55px;
@@ -79,18 +92,10 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 }
 .galereya .row .galery img {
   margin-bottom: 20px;
-  width: 400px;
+  width: 317px;
   padding: 25px;
 }
-@media (max-width: 320px)
-{
-  .galereya .row .galery img {
-    margin-bottom: 20px;
-    width: 350px;
-    padding: 25px;
-    object-fit: cover;
-  }
-}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -108,11 +113,18 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   font-size: 70px;
   font-family: cabin;
   font-weight: 500;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home .row .col p {
   text-align: center;
   font-size: 25px;
   font-weight: 500;
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home .row .col button {
   display: flex;
@@ -142,6 +154,15 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
   font-family: cabin;
   font-weight: 500;
   margin-bottom: 45px;
+  color: black;
+  transition: 0.5s;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.map .main_text_map:hover {
+  color: rgb(28, 224, 77);
 }
 .map .row .map_in {
   display: flex;
@@ -162,14 +183,28 @@ header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link .bi {
 .map .row .map_ins .info_map .map_inses button {
   margin-bottom: 10px;
   background-color: rgb(28, 224, 77);
+  border: none;
+  border-radius: 10px;
+  font-family: bold;
+  color: white;
+  transition: 0.5s;
 }
 .map .row .map_ins .info_map .map_inses button a {
   text-decoration: none;
-  color: black;
-  font-family: cobina;
+  color: rgb(255, 255, 255);
+  font-family: bold;
+  transition: 0.5s;
+}
+.map .row .map_ins .info_map .map_inses button a:hover {
+  color: #32de84;
 }
 .map .row .map_ins .info_map .map_inses button:hover {
-  background-color: rgba(28, 224, 77, 0.61);
+  background-color: #00FF40;
+}
+.map .row .map_ins .info_map h1 {
+  background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer {

@@ -50,6 +50,15 @@ header{
 .menu{
     .main_text_menu{
         text-align: center;
+        color: black;
+        transition: 0.5s;
+        font-size: 72px;
+        background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+       -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .main_text_menu:hover{
+        color:rgb(28, 224, 77) ;
     }
    .row{
     .menus{
@@ -84,6 +93,10 @@ header{
     padding: 50px;
     .text{
     text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     h1{
         font-size: 55px;
         color: rgb(28, 224, 77);
@@ -122,12 +135,19 @@ header{
             font-size: 70px;
             font-family: cabin;
             font-weight: 500;
+            font-size: 72px;
+            background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+           -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
         p{
             text-align: center;
 
             font-size: 25px;
             font-weight: 500;
+            background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+           -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
         button{    
             display: flex;
@@ -160,7 +180,17 @@ header{
         font-family: cabin;
         font-weight: 500;
         margin-bottom: 45px;
+        color: black;
+        transition: 0.5s;
+        font-size: 72px;
+          background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+         -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
+    
+    .main_text_map:hover{
+       color:rgb(28, 224, 77);
+   }
  .row{
     .map_in{
         display: flex;
@@ -180,20 +210,34 @@ header{
                 button{
                     margin-bottom: 10px;
                     background-color: rgb(28, 224, 77) ;
+                    border: none;
+                    border-radius: 10px;
+                    font-family: bold;
+                    color: white;
+                    transition: 0.5s;
+
                     a{
                         text-decoration: none;
-                        color: black;
-                        font-family: cobina;
+                        color: rgb(255, 255, 255);
+                        font-family: bold;
+                        transition: 0.5s;
+                    }
+                    a:hover{
+                        color: #32de84;
                     }
                 }
                 button:hover{
-                    background-color:rgba(28, 224, 77, 0.61);
+                    background-color:#00FF40;
                 }
+            }
+            h1{
+                background: -webkit-linear-gradient(#3f3f3f, #1bce03);
+                -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent; 
             }
         }
     }
  }
-   
 }
 .footer{
     display: flex;
